@@ -17,7 +17,11 @@
   width: 540px;
   justify-content: flex-start;
 }
+input[type="file"] {
+  display: none;
+}
 .page-header__upload-btn {
+  display: inline-block;
   font-weight: 600;
   width: 180px;
   font-size: 14px;
@@ -32,6 +36,7 @@
   box-shadow: 0px 10px 40px rgba(25, 104, 252, 0.3);
 }
 .page-header__upload-btn:hover {
+  cursor: pointer !important;
   opacity: 0.3;
 }
 .logo {
@@ -121,6 +126,7 @@
     margin-top: 40px;
   }
   .headline__upload-btn:hover{
+    cursor: pointer !important;
     opacity: 0.3;
   }
   .headline__img {
@@ -384,6 +390,68 @@
     margin-top: 80px;
   }
   /* features-end */
+  /* user-start */
+  .users {
+    margin-top: 120px;
+  }
+    .users {
+      width: 1120px;
+      margin: 0 auto;
+      margin-top: 120px;
+    }
+    .users .title-block {
+      margin: 0 auto;
+      margin-bottom: 50px;
+    }
+  .users__block {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 0 auto;
+  }
+  .user {
+    width: 250px;
+    background: #ffffff;
+    box-shadow: 0px 20px 60px rgba(49, 69, 244, 0.1);
+    padding: 20px;
+    flex-shrink: 0;
+    margin-top: 20px;
+  }
+  .user {
+    width: 360px;
+    height: 160px;
+  }
+  .user:nth-child(1) {
+    margin-top: 0;
+  }
+  .user:nth-child(2) {
+    margin-top: 0;
+  }
+  .user:nth-child(3) {
+    margin-top: 0;
+  }
+  .user__title {
+    margin: 0;
+    padding: 0;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 40px;
+    text-transform: uppercase;
+    color: #1967fa;
+  }
+  .user__text {
+    margin: 0;
+    padding: 0;
+    margin-top: 20px;
+    padding-left: 20px;
+    font-size: 16px;
+    line-height: 30px;
+  }
+  .user__text {
+      padding-right: 20px;
+      padding-bottom: 20px;
+  }
+  /* user-end */
   /* Frontsize */
   @font-face{
     src:url(../fonts/Mulish/Mulish-Italic-VariableFont_wght.ttf);
