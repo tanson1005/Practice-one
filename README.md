@@ -49,7 +49,13 @@ Timeline details:
 
 ## GETTING STARTED
 
-Git clone ~ <https://github.com/tanson1005/practice-one> ~
-Run Visual Studio Code
-Open project
-Open with live serve ~ <http://127.0.0.1:5501/index.html> ~
+- Git clone
+~
+<https://github.com/tanson1005/practice-one>
+~
+- Run Visual Studio Code
+- Open project
+- Open with live serve
+~
+<http://127.0.0.1:5501/index.html>
+~
