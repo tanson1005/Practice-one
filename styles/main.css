@@ -1,44 +1,44 @@
  /* pagenav-start */
- .page-header {
+  .page-header {
     display: flex;
     padding-left: 80px;
   }
-.page-header {
-  width: 1120px;
-  margin: auto;
-  display: flex;
-  align-items: center;
-  margin-top: 30px;
-  padding-left: 0;
+  .page-header {
+    width: 1120px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+    padding-left: 0;
   }
-.page-header__navigation {
-  margin-left: auto;
-  display: flex;
-  width: 540px;
-  justify-content: flex-start;
-}
-input[type="file"] {
-  display: none;
-}
-.page-header__upload-btn {
-  display: inline-block;
-  font-weight: 600;
-  width: 180px;
-  font-size: 14px;
-  line-height: 50px;
-  padding: 0 30px;
-  text-transform: uppercase;
-  border: none;
-  color: #ffffff;
-  margin-left: 20px;
-  text-shadow: 0px 10px 40px rgba(25, 104, 252, 0.2);
-  background: #1968fc;
-  box-shadow: 0px 10px 40px rgba(25, 104, 252, 0.3);
-}
-.page-header__upload-btn:hover {
-  cursor: pointer !important;
-  opacity: 0.3;
-}
+  .page-header__navigation {
+    margin-left: auto;
+    display: flex;
+    width: 540px;
+    justify-content: flex-start;
+  }
+  input[type="file"] {
+    display: none;
+  }
+  .page-header__upload-btn {
+    display: inline-block;
+    font-weight: 600;
+    width: 180px;
+    font-size: 14px;
+    line-height: 50px;
+    padding: 0 30px;
+    text-transform: uppercase;
+    border: none;
+    color: #ffffff;
+    margin-left: 20px;
+    text-shadow: 0px 10px 40px rgba(25, 104, 252, 0.2);
+    background: #1968fc;
+    box-shadow: 0px 10px 40px rgba(25, 104, 252, 0.3);
+  }
+  .page-header__upload-btn:hover {
+    cursor: pointer !important;
+    opacity: 0.3;
+  }
 .logo {
     display: flex;
     align-items: center;
@@ -107,13 +107,10 @@ input[type="file"] {
     margin: 0;
     font-size: 20px;
     line-height: 40px;
-    margin-top: 20px;
+    margin: 40px 0;
   }
   .headline__upload-btn {
-    width: 300px;
-    height: 50px;
-    padding: 0;
-    margin: 0;
+    padding: 14px 64px;
     background: #1968fc;
     box-shadow: 0px 10px 40px rgba(25, 104, 252, 0.3);
     border: none;
@@ -215,6 +212,8 @@ input[type="file"] {
     right: -8px;
   }
   * {
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
   }
   /* reviews-end */
@@ -445,8 +444,8 @@ input[type="file"] {
     line-height: 30px;
   }
   .user__text {
-      padding-right: 20px;
-      padding-bottom: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
   }
   /* user-end */
   /* purposes-start */
@@ -493,6 +492,82 @@ input[type="file"] {
     margin-left: 20px;
   }
   /* purposes-end */
+  /* consultation-start */
+  .consultation {
+    width: 1440px;
+    margin: 0 auto;
+    margin-top: 120px;
+    background: #1968fc;
+    height: 465px;
+    display: flex;
+    align-items: center;
+    position: relative;
+  }
+  .consultation__text {
+    width: 1120px;
+    margin: 0 auto;
+  }
+  .consultation__title {
+    display: block;
+    width: 1000px;
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 60px;
+    text-transform: uppercase;
+  }
+  .consultation__title {
+    margin: 0;
+    flex-shrink: 0;
+  }
+  .consultation .title-block {
+    margin: auto;
+    width: 520px;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+  }
+  .consultation__title-line {
+    margin-top: 10px;
+    margin-left: -40px;
+    background: #ffffff;
+    box-shadow: 0px 2px 0px #6a9eff;
+    width: 80px;
+    height: 2px;
+  }
+  .consultation__description {
+    padding: 0;
+    margin: 0;
+    font-size: 20px;
+    line-height: 40px;
+    color: #ffffff;
+    margin: 40px 0;
+    width: 629px;
+  }
+  .consultation__button {
+    padding: 15px 65px;
+    margin-top: 40px;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 50px;
+    text-align: center;
+    text-transform: uppercase;
+    width: 320px;
+    color: #1968fc;
+    border: none;
+    margin-top: 40px;
+    background: #ffffff;
+  }
+  .consultation__button:hover{
+    cursor: pointer !important;
+    opacity: 0.3;
+  }
+  .consultation__img {
+    position: absolute;
+    top: 20px;
+    right: 1px;
+  }
+  /* consultation-end */
   /* Frontsize */
   @font-face{
     src:url(../fonts/Mulish/Mulish-Italic-VariableFont_wght.ttf);
