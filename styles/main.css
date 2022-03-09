@@ -394,15 +394,15 @@ input[type="file"] {
   .users {
     margin-top: 120px;
   }
-    .users {
-      width: 1120px;
-      margin: 0 auto;
-      margin-top: 120px;
-    }
-    .users .title-block {
-      margin: 0 auto;
-      margin-bottom: 50px;
-    }
+  .users {
+    width: 1120px;
+    margin: 0 auto;
+    margin-top: 120px;
+  }
+  .users .title-block {
+    margin: 0 auto;
+    margin-bottom: 50px;
+  }
   .users__block {
     display: flex;
     flex-wrap: wrap;
@@ -410,16 +410,13 @@ input[type="file"] {
     margin: 0 auto;
   }
   .user {
-    width: 250px;
+    width: 360px;
+    height: 160px;
     background: #ffffff;
     box-shadow: 0px 20px 60px rgba(49, 69, 244, 0.1);
     padding: 20px;
     flex-shrink: 0;
     margin-top: 20px;
-  }
-  .user {
-    width: 360px;
-    height: 160px;
   }
   .user:nth-child(1) {
     margin-top: 0;
@@ -452,6 +449,50 @@ input[type="file"] {
       padding-bottom: 20px;
   }
   /* user-end */
+  /* purposes-start */
+  .purposes {
+    width: 1120px;
+    margin: 0 auto;
+    margin-top: 120px;
+  }
+  .purposes .title-block {
+    margin: 0 auto;
+    margin-bottom: 60px;
+  }
+  .purposes__row {
+    margin: 0 auto;
+  }
+  .purposes__row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .purposes__row:last-child {
+    margin-top: 40px;
+  }
+  .purpose {
+    background: #ffffff;
+    box-shadow: 0px 20px 60px rgba(49, 69, 244, 0.1);
+    display: flex;
+    margin-top: 40px;
+    align-items: center;
+    flex-shrink: 0;
+    width: 540px;
+    margin-top: 0;
+  }
+  .purpose__img {
+    width: 80px;
+    height: 80px;
+  }
+  .purpose__text {
+    margin: 0;
+    padding: 0;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 40px;
+    margin-left: 20px;
+  }
+  /* purposes-end */
   /* Frontsize */
   @font-face{
     src:url(../fonts/Mulish/Mulish-Italic-VariableFont_wght.ttf);
@@ -471,10 +512,8 @@ input[type="file"] {
     display: flex;
     flex-direction: column;
   }
-  .background-section {
-    background: linear-gradient(180deg, rgba(25, 104, 252, 0.0001) 0%, rgba(25, 104, 252, 0.05) 23.07%, rgba(25, 104, 252, 0.0001) 99.94%, rgba(25, 104, 252, 0.05) 100%);
-  }
   .title {
+    margin-left: 45px !important;
     font-size: 30px;
     line-height: 60px;
     margin: 0;
