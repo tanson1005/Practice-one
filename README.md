@@ -31,7 +31,13 @@ Using HTML Inspector & CSS guideline
 ## TIMELINE
 
 Estimated time: 5 days (February 7 - February 11)
-Timeline details
+Timeline details:
+
+- Day 1: Prepare documents on Estimation plan & Question list
+- Day 2: Implement Content "Headline" & "Reviews" & "Workflow"
+- Day 3: Implement Content "Features" & "Users" & "Purposes" & "Conslutation"
+- Day 4: Implement Content "Stories" & "Footer"
+- Day 5: Review with mentor and fix errors
 
 ## DESIGN
 
