@@ -610,6 +610,88 @@ input[type="file"] {
   color: #000000;
 }
 /* stories-end */
+/* footer-start */
+.page-footer {
+  width: 1440px;
+  margin: 0 auto;
+  margin-top: 120px;
+  background: #fbfbfb;
+  height: 130px;
+  padding: 40px;
+  position: relative;
+  margin-bottom: 0;
+}
+.page-footer__content {
+  display: flex;
+  align-items: center;
+}
+.page-footer__content {
+  width: 1120px;
+  margin: 0 auto;
+  position: relative;
+}
+.footer-logo {
+  display: flex;
+  align-items: center;
+  width: 250px;
+}
+.footer-logo__img {
+  width: 250px;
+  height: 50px;
+}
+.footer-logo__name {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 50px;
+  width: 200px;
+  height: 50px;
+  text-align: center;
+  color: #1968fc;
+  background: rgba(25, 104, 252, 0.05);
+}
+
+.footer-social-links {
+  display: flex;
+  align-items: center;
+  margin-left: 50px;
+  margin-right: 180px;
+}
+.footer-social-link {
+  width: 50px;
+  height: 50px;
+  display: block;
+  display: flex;
+  justify-content: center;
+}
+.footer-social-icon {
+  align-self: center;
+}
+.footer-img {
+  height: 100px;
+  width: 118px;
+  bottom: 0px;;
+  filter: drop-shadow(2px 6px 12px rgba(255, 131, 51, 0.3));
+  position: absolute;
+  bottom: 0;
+  right: 0 ;
+  margin-right: 160px;
+}
+.footer-navigation {
+  display: flex;
+  margin-left: auto;
+}
+.footer-navigation a {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 50px;
+  padding: 0 20px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  text-decoration: none;
+  color: #000000;
+}
+/* footer-end */
 /* Frontsize */
 @font-face{
   src:url(../fonts/Mulish/Mulish-Italic-VariableFont_wght.ttf);
