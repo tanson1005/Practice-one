@@ -537,8 +537,8 @@
     width: 629px;
   }
   .consultation__button {
-    padding: 15px 65px;
-    margin-top: 40px;
+    margin: 0;
+    padding: 0;
     font-weight: 700;
     font-size: 14px;
     line-height: 50px;
