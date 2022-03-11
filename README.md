@@ -1,7 +1,5 @@
 # Practice-one
 
-- Practice lasts 10 days
-
 ## OVERVIEW
 
 - In this practice, the facilitator helps you to deepen your understanding of HTML/CSS and helps you improve your front-end skills
@@ -15,10 +13,7 @@
 
 - Son Nguyen Tan
 
-- Gmail
-`
-tanson01657715766@gmail.com>
-`
+- Email: `tanson01657715766@gmail.com>`
 
 ## TECHNICAL
 
@@ -60,8 +55,8 @@ tanson01657715766@gmail.com>
 ## DOCUMENT
 ### ESIMATION PLAN
 
--[link](<https://docs.google.com/document/d/14DLRLGO1A11rArRbcXxdPyBkUsh3ZKRuFuEcBZXjXKQ/edit>)
+- [link](<https://docs.google.com/document/d/14DLRLGO1A11rArRbcXxdPyBkUsh3ZKRuFuEcBZXjXKQ/edit>)
 
 ### QUESTION LIST
 
--[link](<https://docs.google.com/document/d/1kF41m4dSKHQznSJDgr00lQmMd3ezlTJ9acSHmxMZc1U/edit>)
+- [link](<https://docs.google.com/document/d/1kF41m4dSKHQznSJDgr00lQmMd3ezlTJ9acSHmxMZc1U/edit>)
