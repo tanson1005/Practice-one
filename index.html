@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
     <title>Vangoux</title>
     <link rel="stylesheet" href="./styles/reset.css">
     <link rel="stylesheet" href="./styles/main.css" />
@@ -11,41 +11,43 @@
   <body>
     <div class="background-section">
       <div class="page">
-      <header class="page-header">
-          <div class="logo">
-          <h1><a href="javascript:void(0)"><img class="logo__img" src="./images/logo/Logo.png" alt="Vangoux Logo"/></a></h1>
+        <header class="page-header">
+          <h1 class="logo">
+            <a href="javascript:void(0)"><img class="logo__img" src="./images/logo/Logo.png" alt="Vangoux Logo"/></a>
+          </h1>
+          <nav class="page-header__navigation">
+            <a href="javascript:void(0)" class="nav-list__item">How it works</a>
+            <a href="javascript:void(0)" class="nav-list__item">Features</a>
+            <a href="javascript:void(0)" class="nav-list__item">Use cases</a>
+            <a href="javascript:void(0)" class="nav-list__item">Schedule a demo</a>
+          </nav>
+          <label class="page-header__upload-btn">
+            <input type="file"/>Upload Sketch
+          </label>
+        </header>
+
+        <section class="headline">
+          <div class="headline__content">
+            <h2 class="headline__title">Launch beautiful websites directly from Sketch</h2>
+            <p class="headline__description">Create pixel perfect websites, landing pages & portfolios directly from your Sketch designs</p>
+            <button class="headline__upload-btn">
+              See VanGoux in action
+            </button>
           </div>
-        <nav class="page-header__navigation">
-          <a href="javascript:void(0)" class="nav-list__item">How it works</a>
-          <a href="javascript:void(0)" class="nav-list__item">Features</a>
-          <a href="javascript:void(0)" class="nav-list__item">Use cases</a>
-          <a href="javascript:void(0)" class="nav-list__item">Schedule a demo</a>
-        </nav>
-        <label class="page-header__upload-btn">
-          <input type="file"/>Upload Sketch
-        </label>
-      </header>
-      <section class="headline">
-        <div class="headline__content">
-          <h2 class="headline__title">Launch beautiful websites directly from Sketch</h2>
-          <p class="headline__description">Create pixel perfect websites, landing pages & portfolios directly from your Sketch designs</p>
-          <button class="headline__upload-btn">
-            See VanGoux in action
-          </button>
-        </div>
-        <img class="headline__img" src="./images/headline/Illustration-Main.png" alt="Scheme"/>
-      </section>
+          <img class="headline__img" src="./images/headline/Illustration-Main.png" alt="Scheme"/>
+        </section>
       </div>
+
       <section class="reviews">
         <div class="review">
-        <div class="review__main-info">
-          <img class="review__photo" src="./images/review/Man-Reviews.png" alt="Photo John Doe"/>
-          <div class="review__about-autor">
-            <p class="review__name">John Doe</p>
-            <p class="review__position">CEO, PrettyDopeDesigns</p>
+          <div class="review__main-info">
+            <img class="review__photo" src="./images/review/Man-Reviews.png" alt="Photo John Doe"/>
+            <div class="review__about-autor">
+              <p class="review__name">John Doe</p>
+              <p class="review__position">CEO, PrettyDopeDesigns</p>
+            </div>
+            <img class="review__picture" src="./images/review/Illustration-Quote.png" alt="Quote"/>
           </div>
-          <img class="review__picture" src="./images/review/Illustration-Quote.png" alt="Quote"/>
-        </div>
           <p class="review__text">
             &#8220Our senior frontend developer was 70% faster in building React.js components thanks to VanGoux&#33&#8221
           </p>
@@ -53,16 +55,17 @@
         <div class="review">
           <div class="review__main-info">
             <img class="review__photo" src="./images/review/Girl-reviews.png" alt="Photo Jane Goodman"/>
-          <div class="review__about-autor">
-          <p class="review__name">Jane Goodman</p>
-          <p class="review__position">Founder, ImpactNation</p>
-        </div>
+            <div class="review__about-autor">
+            <p class="review__name">Jane Goodman</p>
+            <p class="review__position">Founder, ImpactNation</p>
+            </div>
             <img class="review__picture" src="./images/review/Illustration-Quote.png" alt="Quote"/>
-        </div>
+          </div>
           <p class="review__text">
             &#8220It was awesome to see VanGoux turn our MVP designs into code within minutes.&#8221
         </div>
-        </section>
+      </section>
+
       <section class="workflow">
         <div class="title-block">
           <h2 class="title">How VanGoux works</h2>
@@ -77,10 +80,10 @@
               </div>
               <img class="workflow-step__icon" src="./images/workflow/Icon-Download.png" alt="Icon Upload"/>
             </div>
-              <p class="workflow-step__text">
-                Upload design for your site&#44 landing page or portfolio
-              </p>
-              <img class="workflow-step__decoration" src="./images/workflow/Decoration-Juju.png" alt="Icon Decoration"/>
+            <p class="workflow-step__text">
+              Upload design for your site&#44 landing page or portfolio
+            </p>
+            <img class="workflow-step__decoration" src="./images/workflow/Decoration-Juju.png" alt="Icon Decoration"/>
           </div>
           <div class="workflow-step">
             <div class="workflow-step__header">
@@ -88,13 +91,13 @@
                 <span class="workflow-step__subtitle">Step 2</span>
                 <span class="workflow-step__title">Publish website</span>
               </div>
-                <img class="workflow-step__icon" src="./images/workflow/Icon-Upload.png" alt="Icon Upload"/>
+              <img class="workflow-step__icon" src="./images/workflow/Icon-Upload.png" alt="Icon Upload"/>
             </div>
-              <p class="workflow-step__text">
-                You get a publicly shareable link for your website
-              </p>
-              <img class="workflow-step__decoration" src="./images/workflow/Decoration-Juju.png" alt="Icon Decoration"/>
-            </div>
+            <p class="workflow-step__text">
+              You get a publicly shareable link for your website
+            </p>
+            <img class="workflow-step__decoration" src="./images/workflow/Decoration-Juju.png" alt="Icon Decoration"/>
+          </div>
           <div class="workflow-step">
             <div class="workflow-step__header">
               <div class="workflow-step__title-block">
@@ -103,13 +106,13 @@
               </div>
               <img class="workflow-step__icon" src="./images/workflow/Icon-Use-Code.png" alt="Icon Use Code"/>
             </div>
-              <p class="workflow-step__text">
-                Host it on a new or existing domain name
-              </p>
-              <img class="workflow-step__decoration" src="./images/workflow/Decoration-Juju.png" alt="Icon Decoration"/>
-            </div>
-      </div>
+            <p class="workflow-step__text">
+              Host it on a new or existing domain name
+            </p>
+            <img class="workflow-step__decoration" src="./images/workflow/Decoration-Juju.png" alt="Icon Decoration"/>
+          </div>
       </section>
+
       <section class="features">
         <div class="title-block">
           <h2 class="title">Features</h2>
@@ -121,33 +124,34 @@
               <img class="features__header-img" src="./images/features/Icon-Solid-Pixel-Perfect.png" alt="Icon Pixel Perfect"/>
               <span class="features__title">Pixel perfect output</span>
             </div>
-              <p class="features__text">
-                Crisp&#44 pixel&#8208perfect landing pages without bothering your developers
-              </p>
-              <img class="features__decoration" src="./images/features/Decoration-Juju.png" alt="Icon Decoration"/>
+            <p class="features__text">
+              Crisp&#44 pixel&#8208perfect landing pages without bothering your developers
+            </p>
+            <img class="features__decoration" src="./images/features/Decoration-Juju.png" alt="Icon Decoration"/>
           </div>
           <div class="feature">
             <div class="features__header">
               <img class="features__header-img" src="./images/features/Icon-Solid-Flexible-Responsive.png" alt="Icon Responsive"/>
               <span class="features__title">Flexible & responsive</span>
             </div>
-              <p class="features__text">
-                Your web pages will flexibly adapt to different browser window sizes
-              </p>
-              <img class="features__decoration" src="./images/features/Decoration-Juju.png" alt="Icon Decoration"/>
+            <p class="features__text">
+              Your web pages will flexibly adapt to different browser window sizes
+            </p>
+            <img class="features__decoration" src="./images/features/Decoration-Juju.png" alt="Icon Decoration"/>
           </div>
           <div class="feature">
             <div class="features__header">
               <img class="features__header-img" src="./images/features/Icon-Solid-Reusable-Components.png" alt="Icon Components"/>
               <span class="features__title">Complete code freedom</span>
             </div>
-              <p class="features__text">
-                VanGoux gives you source code of your website, so you can add your own logic
-              </p>
-              <img class="features__decoration" src="./images/features/Decoration-Juju.png" alt="Icon Decoration"/>
+            <p class="features__text">
+              VanGoux gives you source code of your website, so you can add your own logic
+            </p>
+            <img class="features__decoration" src="./images/features/Decoration-Juju.png" alt="Icon Decoration"/>
           </div>
         </div>
       </section>
+
       <section class="users">
         <div class="title-block">
           <h2 class="title">Who is VanGoux for</h2>
@@ -192,6 +196,7 @@
           </div>
         </div>
       </section>
+
       <section class="purposes">
         <div class="title-block">
           <h2 class="title">What can you do with VanGoux</h2>
@@ -222,6 +227,7 @@
           </div>
         </div>
       </section>
+
       <section class="consultation">
         <div class="consultation__text">
           <div class="title-block">
@@ -230,16 +236,17 @@
             </h2>
             <div class="consultation__title-line"></div>
           </div>
-            <p class="consultation__description">
-              Schedule a call and we&#8217ll show you how you could become a
-              design-to-code rockstar using VanGoux.
-            </p>
-            <button class="consultation__button">
-              Schedule a call with us
-            </button>
+          <p class="consultation__description">
+            Schedule a call and we&#8217ll show you how you could become a
+            design-to-code rockstar using VanGoux.
+          </p>
+          <button class="consultation__button">
+            Schedule a call with us
+          </button>
         </div>
         <img class="consultation__img" src="./images/consultation/Illustration-Whiteglove.png" alt="Illustration"/>
       </section>
+
       <section class="stories">
         <div class="title-block">
           <h2 class="title">Our story</h2>
@@ -269,6 +276,7 @@
           </div>
         </div>
       </section>
+
       <footer class="page-footer">
         <div class="page-footer__content">
           <div class="footer-logo">
@@ -285,14 +293,14 @@
               <img class="footer-social-icon" src="./images/footer/Icon-Facebook.png" alt="Icon Facebook"/>
             </a>
             <a class="footer-social-link" href="javascript:void(0)">
-              <img class="footer-social-icon" src="./images/footer/Icon-Instagram.png" alt="Icon Instagram"/>
+            <img class="footer-social-icon" src="./images/footer/Icon-Instagram.png" alt="Icon Instagram"/>
             </a>
           </div>
         </div>
-          <img class="footer-img" src="./images/footer/VincentIl-lustration.png" alt="Vincent Illustration"/>
+        <img class="footer-img" src="./images/footer/VincentIl-lustration.png" alt="Vincent Illustration"/>
       </footer>
     </div>
   </body>
   <script src="http://cdnjs.cloudflare.com/ajax/libs/html-inspector/0.8.2/html-inspector.js"></script>
-  <script src="./javascript/index.js"></script>
+  <script src="./javascripts/index.js"></script>
 </html>
