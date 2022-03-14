@@ -1,6 +1,7 @@
 .background-section{
   max-width: 1440px;
   margin: 0 auto;
+  font-family: Mulish;
 }
 /* pagenav-start */
 .page-header {
@@ -705,7 +706,6 @@ input[type="file"] {
 html {
   font-size: 16px;
   color: #11223f;
-  font-family: Mulish;
 }
 .page {
   max-width: 1400px;
