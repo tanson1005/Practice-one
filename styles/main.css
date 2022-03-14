@@ -672,23 +672,11 @@ input[type="file"] {
 .footer-logo {
   display: flex;
   align-items: center;
-  width: 250px;
 }
 .footer-logo__img {
   width: 250px;
   height: 50px;
 }
-.footer-logo__name {
-  font-weight: 600;
-  font-size: 14px;
-  line-height: 50px;
-  width: 200px;
-  height: 50px;
-  text-align: center;
-  color: #1968fc;
-  background: rgba(25, 104, 252, 0.05);
-}
-
 .footer-social-links {
   display: flex;
   align-items: center;
