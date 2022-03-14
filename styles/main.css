@@ -1,3 +1,7 @@
+.background-section{
+  max-width: 1440px;
+  margin: 0 auto;
+}
 /* pagenav-start */
 .page-header {
   display: flex;
@@ -694,15 +698,14 @@ input[type="file"] {
 /* footer-end */
 /* Frontsize */
 @font-face{
-  src:url(../fonts/Mulish/Mulish-Italic-VariableFont_wght.ttf);
+  src:url(../fonts/Mulish/Mulish-VariableFont_wght.ttf);
   font-family: Mulish;
 }
 /* Index*/
 html {
-  font-family: "Mulish", sans-serif;
   font-size: 16px;
   color: #11223f;
-  /* font-family: Mulish; */
+  font-family: Mulish;
 }
 .page {
   max-width: 1400px;
